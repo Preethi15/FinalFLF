@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MFG Suite" duration-ms="76048" started-at="2019-02-14T05:45:46Z" finished-at="2019-02-14T05:47:02Z">
+    <groups>
+    </groups>
+    <test name="FLFFLOW" duration-ms="76048" started-at="2019-02-14T05:45:46Z" finished-at="2019-02-14T05:47:02Z">
+      <class name="com.volvo.mfg.test.TestFLFPages">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.volvo.mfg.test.TestFLFPages@6f1fba17]" name="startTest" is-config="true" duration-ms="298" started-at="2019-02-14T11:15:46Z" finished-at="2019-02-14T11:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.volvo.mfg.test.TestFLFPages@6f1fba17]" name="setUp" is-config="true" duration-ms="156" started-at="2019-02-14T11:15:46Z" finished-at="2019-02-14T11:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InitTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.volvo.mfg.test.TestFLFPages@6f1fba17]" name="InitTestMethod" is-config="true" duration-ms="10341" started-at="2019-02-14T11:15:46Z" finished-at="2019-02-14T11:15:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.volvo.mfg.test.TestFLFPages.PickingofKollis(java.util.LinkedHashMap) throws java.io.IOException,java.lang.InterruptedException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitTestMethod -->
+        <test-method status="PASS" signature="PickingofKollis(java.util.LinkedHashMap)[pri:0, instance:com.volvo.mfg.test.TestFLFPages@6f1fba17]" name="PickingofKollis" duration-ms="63768" started-at="2019-02-14T11:15:57Z" data-provider="TestDataProvider" finished-at="2019-02-14T11:17:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC_No=TC_01, TestCase_Name=PickingofKollis, Execution_Status=Yes, UserName=pmadhesh, Password=9w130v2@@3bwe6Fc, Expected=Flf systemets startsida., Status=LEDIG,HÄMTAD,FRISLÄPPT,Oplanerad, UpdateTrainName=VGNTCS TCS2, ObjectID=31424351, LevNo=AEKLA, KolliNo=950078198, Checkcode=81, ArticleNo=31445107, StartAvMad=Test1, FromMad=123, ToMad=456, MadChk=1, Fabrik=C,B, Rum=TCSLAST, Rumbeskrivning=Lastuppdrag TCS, Tur=1031,TEST,1451, LeadTime=10, ChangeTime=1, GenaTime=1,31, userDropdown=Användare, Cdsid=PMADHESH}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PickingofKollis -->
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.volvo.mfg.test.TestFLFPages@6f1fba17]" name="afterMethods" is-config="true" duration-ms="533" started-at="2019-02-14T11:17:00Z" finished-at="2019-02-14T11:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.volvo.mfg.test.TestFLFPages@6f1fba17]" name="cleanUp" is-config="true" duration-ms="811" started-at="2019-02-14T11:17:01Z" finished-at="2019-02-14T11:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.volvo.mfg.test.TestFLFPages@6f1fba17]" name="endTest" is-config="true" duration-ms="0" started-at="2019-02-14T11:17:02Z" finished-at="2019-02-14T11:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.volvo.mfg.test.TestFLFPages -->
+    </test> <!-- FLFFLOW -->
+  </suite> <!-- MFG Suite -->
+</testng-results>

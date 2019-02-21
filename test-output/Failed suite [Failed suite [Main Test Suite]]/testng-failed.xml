@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Main Test Suite]]]" parallel="tests">
+  <test thread-count="2" name="GB(failed)(failed)(failed)" parallel="methods">
+    <parameter name="browser" value="FIREFOX"/>
+    <classes>
+      <class name="com.volvo.ncl.test.TestDealerHome">
+        <methods>
+          <include name="startTest"/>
+          <include name="DeInitTestMethod"/>
+          <include name="cleanUp"/>
+          <include name="InitTestMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="DealerSelection"/>
+        </methods>
+      </class> <!-- com.volvo.ncl.test.TestDealerHome -->
+    </classes>
+  </test> <!-- GB(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Main Test Suite]]] -->

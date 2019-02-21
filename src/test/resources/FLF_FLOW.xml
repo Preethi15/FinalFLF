@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MFG Suite" parallel="tests" thread-count="2">
+ 
+ <parameter name="pdfngreport-properties" value="pdfngreport.properties" />
+  
+    <!-- <listeners>
+        <listener class-name="com.uttesh.pdfngreport.PDFReportListener" />
+    </listeners> -->
+   <!-- browser = IE, CHROME, FIREFOX -->
+  <test name="FLFFLOW" >
+  
+  <parameter name="browser" value="IE"/>
+  <classes>
+         
+      <class name="com.volvo.mfg.test.TestFLFPages"/>
+      
+      
+      </classes>
+     </test>
+       
+     <!--  <test name="AGVFLOW_Test1" parallel="methods" thread-count="2">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+        <class name="com.volvo.mfg.test.TestLoginPages"/>
+       
+    </classes>
+     </test>
+    <test name="AGVFLOW_Test2" parallel="methods" thread-count="2" >
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+        <class name="com.volvo.mfg.test.TestLoginPages"/>
+    </classes>
+  </test>
+   -->
+ 
+</suite> <!-- Suite -->

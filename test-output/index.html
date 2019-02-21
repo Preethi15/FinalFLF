@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MFG_Suite">
+              <span class="suite-name border-passed">MFG Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MFG_Suite">
+                    <span>\\GBW9061106.GOT.VOLVOCARS.NET\PMADHESH$\Data\Desktop\workspace svn\Volvo_FLF\src\test\resources\FLF_FLOW.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MFG_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MFG_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MFG_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MFG_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MFG_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MFG_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MFG_Suite" class="hide-methods passed suite-MFG_Suite"> (hide)</a> <!-- hide-methods passed suite-MFG_Suite -->
+                      <a href="#" panel-name="suite-MFG_Suite" class="show-methods passed suite-MFG_Suite"> (show)</a> <!-- show-methods passed suite-MFG_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-MFG_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MFG_Suite" title="com.volvo.mfg.test.TestFLFPages" hash-for-method="PickingofKollis({TC_No=TC_01, TestCase_Name=PickingofKollis, Execution_Status=Yes, UserName=pmadhesh, Password=9w130...)">PickingofKollis({TC_No=TC_01, TestCase_Name=PickingofKollis, Execution_Status=Yes, UserName=pmadhesh, Password=9w130...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MFG_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MFG_Suite" class="panel MFG_Suite">
+          <div class="suite-MFG_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.volvo.mfg.test.TestFLFPages</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PickingofKollis({TC_No=TC_01, TestCase_Name=PickingofKollis, Execution_Status=Yes, UserName=pmadhesh, Password=9w130...)">
+                  </a> <!-- PickingofKollis({TC_No=TC_01, TestCase_Name=PickingofKollis, Execution_Status=Yes, UserName=pmadhesh, Password=9w130...) -->
+                  <span class="method-name">PickingofKollis</span>
+                  <span class="parameters">({TC_No=TC_01, TestCase_Name=PickingofKollis, Execution_Status=Yes, UserName=pmadhesh, Password=9w130v2@@3bwe6Fc, Expected=Flf systemets startsida., Status=LEDIG,HÄMTAD,FRISLÄPPT,Oplanerad, UpdateTrainName=VGNTCS TCS2, ObjectID=31424351, LevNo=AEKLA, KolliNo=950078198, Checkcode=81, ArticleNo=31445107, StartAvMad=Test1, FromMad=123, ToMad=456, MadChk=1, Fabrik=C,B, Rum=TCSLAST, Rumbeskrivning=Lastuppdrag TCS, Tur=1031,TEST,1451, LeadTime=10, ChangeTime=1, GenaTime=1,31, userDropdown=Användare, Cdsid=PMADHESH})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MFG_Suite-class-passed -->
+        </div> <!-- panel MFG_Suite -->
+        <div panel-name="test-xml-MFG_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">\\GBW9061106.GOT.VOLVOCARS.NET\PMADHESH$\Data\Desktop\workspace svn\Volvo_FLF\src\test\resources\FLF_FLOW.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; name=&quot;MFG Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;pdfngreport-properties&quot; value=&quot;pdfngreport.properties&quot;/&gt;
+  &lt;test name=&quot;FLFFLOW&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;IE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.volvo.mfg.test.TestFLFPages&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FLFFLOW --&gt;
+&lt;/suite&gt; &lt;!-- MFG Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MFG_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MFG Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FLFFLOW (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MFG_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MFG Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MFG_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MFG Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MFG_Suite');
+function tableData_MFG_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'PickingofKollis')
+data.setCell(0, 2, 'com.volvo.mfg.test.TestFLFPages')
+data.setCell(0, 3, 63768);
+window.suiteTableData['MFG_Suite']= { tableData: data, tableDiv: 'times-div-MFG_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-MFG_Suite">
+              </div> <!-- times-div-MFG_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MFG_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MFG Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MFG_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MFG_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.volvo.mfg.test.TestFLFPages</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">314 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">InitTestMethod(IE, public void com.volvo.mfg.test.TestFLFPages.PickingofKollis(java.util.LinkedHashMap) throws java...)</span>
+                <span class="method-start">595 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PickingofKollis({TC_No=TC_01, TestCase_Name=PickingofKollis, Execution_Status=Yes, UserName=pmadhesh, Password=9w130...)</span>
+                <span class="method-start">10936 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethods</span>
+                <span class="method-start">74704 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">75237 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">76048 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
